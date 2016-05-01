@@ -1,0 +1,10 @@
+<?php
+  $styles = json_decode(file_get_contents(__DIR__ . '/TextField.css.json'), true);
+?>
+
+<div>
+  <label for="<?=$this->e($name) ?>" class="<?=$styles['label']?>">
+    <?=$this->e($label) ?>
+  </label>
+  <input name="<?=$this->e($name) ?>" class="<?=$styles['input']?>" />
+</div>

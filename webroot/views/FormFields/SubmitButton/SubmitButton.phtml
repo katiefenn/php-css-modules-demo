@@ -1,0 +1,5 @@
+<?php
+  $styles = json_decode(file_get_contents(__DIR__ . '/SubmitButton.css.json'), true);
+?>
+
+<input type="submit" value="Register" class="<?=$styles['input']?>" />

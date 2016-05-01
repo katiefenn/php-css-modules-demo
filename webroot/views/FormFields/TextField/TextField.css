@@ -1,0 +1,9 @@
+.label {
+  display: block;
+}
+
+.input {
+  composes: input from "../shared.css";
+  border: 1px solid #999;
+  height: 30px;
+}

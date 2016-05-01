@@ -1,0 +1,12 @@
+{
+    "name": "kas/php-css-modules-example",
+    "authors": [
+        {
+            "name": "Katie Fenn",
+            "email": "katie.fenn@googlemail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.1"
+    }
+}

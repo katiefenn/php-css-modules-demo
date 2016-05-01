@@ -1,0 +1,13 @@
+.input {
+  composes: input from "../shared.css";
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 3px;
+  color: white;
+  -webkit-appearance: button;
+  background: linear-gradient(to bottom, #33CC33 0%,#229922 100%);
+}
+
+.input:hover {
+  background: linear-gradient(to bottom, #44dd 0%,#229922 100%);
+}
