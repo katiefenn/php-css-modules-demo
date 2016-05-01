@@ -6,7 +6,7 @@ A demonstration of CSS Modules on a PHP platform, by Katie Fenn.
 - Node.JS
 - npm
 - gulp-cli
-- Virtual box
+- Virtual Box
 - Vagrant
 
 ## Build development VM
