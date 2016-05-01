@@ -34,3 +34,6 @@ Build static CSS files from source by running Gulp in the project root folder:
 ```
 gulp
 ```
+
+# Development site
+If everything has worked, the development site should be available at [http://192.168.56.101/](http://192.168.56.101/)
